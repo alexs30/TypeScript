@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+       <meta charset="utf-8"/>
+       <meta name="viewport" content="whidt=device-whidt, initial-scale=1.0">
+       <link rel="stylesheet" href="style.css">
+       <title>Estacionamento</title> 
+    </head>
+    <body>
+        <h1 class="titulo">ESTACIONAMENTO DO ALEX</h1>
+
+        <input class="caixas" type="text" id="nome" placeholder="Digite o modelo do veículo" autocomplete="off"/>
+        <input class="caixas" type="text" id="placa" placeholder="Digite a placa do veículo" autocomplete="off"/>
+
+        <button id="cadastrar">Cadastrar</button>
+
+        <table>
+         <thead>
+            <tr class="opcoes">
+             <th>Nome</th>
+             <th>Placa</th>
+             <th>Entrada</th>
+             <th>Ações</th>
+            </tr>
+         </thead>
+          <tbody id="patio"></tbody>
+        </table>
+
+        <script src="./script.js"></script>
+
+
+    </body>
+    </html>

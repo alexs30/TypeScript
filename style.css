@@ -1,0 +1,34 @@
+* {
+    padding:5px;
+    margin: 5px;
+    font-family: apple-system,system-ui,BlinkMacSystemFont ;
+    font-size: 25px;
+    align-items: center;
+}
+
+body {
+    width: 100%;
+    min-height: 50vh;
+    background-color: rgb(121, 5, 5);   
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.titulo {
+    font-size: 45px;
+    font-family:  Lucida Handwriting;
+    color: rgb(236, 131, 131)
+}
+
+.opcoes{
+    color: rgb(236, 131, 131);
+}
+       
+
+.caixas{
+    width: 600px;
+    border: 2px solid black;
+    
+}
+
